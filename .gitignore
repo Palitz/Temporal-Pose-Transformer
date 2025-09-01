@@ -1,14 +1,19 @@
+# Python cache
 __pycache__/
 *.pyc
+
+# Environment folder
 venv/
-env/
-.env
+
+# IDE and OS files
 .vscode/
 .idea/
 *.DS_Store
-*.csv
-*.zip
-*.pkl
-data/
+
+# Data and Model Files
+*.npy
 *.h5
 *.keras
+
+# Validation/Evaluation scripts (optional, but good practice to keep the repo clean)
+# evaluate.py
