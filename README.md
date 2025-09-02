@@ -17,13 +17,4 @@ To run the validation script, you will need the following libraries:
 - numpy
 - h5py
 
-You can install them via pip:
-`pip install tensorflow numpy h5py`
 
-### How to Validate the Model
-
-To confirm the code is working correctly, run the validation script from the terminal:
-
-`python validate_model.py`
-
-You should see a series of checks that end with "✅ ALL CHECKS PASSED!".
